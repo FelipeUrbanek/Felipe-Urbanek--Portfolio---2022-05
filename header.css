@@ -1,0 +1,68 @@
+.header-bg{
+  background-color: #4660BA;
+  
+}
+
+
+.header{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 20px 10px;
+  background-color: #4660BA;
+}
+
+.navbar-start{
+  margin: 0 auto;
+}
+
+.navbar-item{
+  font-size: 1rem;
+  color: white;
+  font-weight: 350;
+  padding: 0px 50px;
+  margin: 10px;
+}
+
+a.navbar-item:hover{
+  background-color: #fafafa00;
+  color: #1b1a1a;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.btn-contato{
+  background-color: #4660BA;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.089) !important;
+}
+
+.btn-contato:hover{
+  border: 2px solid rgba(12, 12, 12, 0.507) !important;
+}
+
+
+
+@media screen and (max-width: 1023px){
+.navbar-menu {
+    background-color:transparent;
+    box-shadow: none;
+  
+  
+  }
+.navbar-start{
+  display: flex!important;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.navbar-item{
+  margin-top: 10px;
+}
+
+
+
+}
