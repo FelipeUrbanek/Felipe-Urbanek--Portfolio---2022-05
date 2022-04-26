@@ -3,6 +3,7 @@
   margin: 0 auto;
   align-items: center;
   padding: 10px 40px;
+  background-color: #4660BA;
   
 
 }
@@ -49,6 +50,7 @@ border-radius: 6px;
 box-shadow: none;
 border-style: none;
 border-color: unset;
+font-weight: 800;
 
 
 
@@ -67,7 +69,7 @@ border-color: unset;
       background-color: #4660BA;
       
     }
-  }
+    
 
   @media screen and (min-width: 769px){
     #home_esquerda button{
@@ -99,7 +101,7 @@ border-color: unset;
       justify-content: center;
       text-align: center;
     }
-
+  
 
     .columns{
       display: flex;
@@ -116,3 +118,21 @@ border-color: unset;
 
 
 
+  }
+
+
+
+  button.is-size-7-mobile.is-size-4-tablet.is-size-5-widescreen.is-flex {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+    @media screen and (min-width: 769px){
+    .column.is-12-tablet {
+        flex: initial;
+        width: initial;
+    }
+}

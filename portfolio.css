@@ -1,0 +1,87 @@
+.portfolio{
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #4660BA;
+  
+
+}
+
+.portfolio h2{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #EF587A;
+}
+
+
+.portfolio h3{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 900;
+}
+
+
+.texto-portfolio{
+  line-height: 1;
+  margin-left: 10%;
+  padding: 3% 0px;
+}
+
+.columns-portfolio p{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  justify-content: left;
+  margin-left: 40px;
+  font-size: 2.5rem;
+  color: white;
+  font-style: bold;
+  bottom: 80px;
+}
+
+.columns-portfolio button{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  justify-content: left;
+  margin-left: 40px;
+  bottom: 185px;
+  padding: 10px 20px;
+  background-color: #f2f2f2dc;
+  border-radius: 50px;
+  border: none;
+  mix-blend-mode: screen;
+  font-size: large;
+  font-weight: 500;
+}
+
+
+/* //desktop */
+@media screen and (min-width: 1216px){
+ 
+}
+
+
+/* //tablet */
+@media screen and (max-width: 1024px){
+  .columns-portfolio button{
+    bottom: 125px;
+  }
+  .columns-portfolio p{
+    bottom: 50px;
+  }
+}
+
+
+/* //celular */
+@media screen and (max-width: 768px){
+  .columns-portfolio button{
+    align-self: flex-start;
+    bottom: 125px;
+  }
+  .columns-portfolio p{
+    align-self: flex-start;
+    bottom: 50px;
+  }
+}

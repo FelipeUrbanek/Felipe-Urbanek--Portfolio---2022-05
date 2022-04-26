@@ -1,0 +1,116 @@
+
+.contato{
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 60px 10px;
+}
+
+#contatoesquerda{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: rgb(244, 246, 247);
+  gap: 20px;
+}
+
+#contatoesquerda h6{
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #391400;
+}
+
+#contatoesquerda input , #contatoesquerda textarea{
+  font-size: 1.0rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #2b0f1669;
+  
+}
+
+#contatoesquerda button{
+  background: #EF587A;
+border-radius: 6px;
+box-shadow: none;
+border-style: none;
+border-color: unset;
+font-weight: 700;
+color: white;
+font-size: 1rem;
+padding: 10px 10px;
+width: 45%;
+align-self: flex-end;
+}
+#contatoesquerda input::-webkit-input-placeholder , #contatoesquerda textarea::-webkit-input-placeholder{
+  color: #3535354b;
+  position: relative;
+  left: 20px;
+  margin-left: 20px;
+}
+
+
+#contatodireita{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+#contatodireita p{
+  font-size: 1.0rem;
+  font-weight: 700;
+  color: #ffffffea;
+  margin-left: 20px;
+}
+
+#contatodireita h3{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #EF587A;
+} 
+
+#contatodireita h2{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#contatodireita span{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fffafa81;
+}
+
+
+.sociais{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  color: white;
+  gap: 20px;
+  font-size: x-large;
+}
+
+
+.sociais a{
+  color: #ffffff
+}
+.sociais a:hover{
+  color: #EF587A;
+  transform: scale(1.1);
+}
+
+
+/* //tablet */
+@media screen and (max-width: 1024px){
+ 
+}
+
+
+/* //celular */
+@media screen and (max-width: 768px){
+  
+}

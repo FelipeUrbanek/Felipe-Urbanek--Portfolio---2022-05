@@ -1,0 +1,85 @@
+.faixabg{
+  margin: 0 auto;
+}
+.faixa{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  
+  align-items: center;
+  padding: 10px 40px;
+}
+
+
+
+
+
+#faixaesquerda h4{
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  
+}
+
+
+#faixaesquerda p{
+  font-size: 1.5rem;
+  color: #EF587A;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+#faixaesquerda button{
+  font-size: 1rem;
+font-weight: bold;
+padding: 10px 10px;
+color: white;
+text-align: center;
+width: 50%;
+text-transform: uppercase;
+
+background: #EF587A;
+border-radius: 6px;
+box-shadow: none;
+border-style: none;
+border-color: unset;
+font-weight: 900;
+
+
+
+}
+
+#faixameio span{
+color: white;
+font-weight: 400;
+font-size: 1.2rem;
+}
+
+
+
+
+
+/* ??CELULAR */
+@media screen and (max-width: 768px){
+ 
+  #faixaesquerda p ,#faixaesquerda h4{
+    margin-bottom: 0px;
+  }
+
+  #faixaesquerda button{
+    width: 100%;
+  }
+  .faixa{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+}

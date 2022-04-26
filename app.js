@@ -6,7 +6,7 @@ $('.navbar-burger').click(function () {
   $('.navbar-start').css({
     display: 'flex',
     'align-items': 'center',
-    position: 'fixed',
+    position: 'initial',
     width: '100%'
   })
   $('.navbar-start a').css('font-size', '2rem')
@@ -16,11 +16,11 @@ $('.navbar-burger').click(function () {
 $(document).scroll(function () {
   if ($(document).scrollTop() > 5) {
     $('.navbar').addClass('is-fixed-top')
+    $('.navbar').css({ 'max-width': '100%' })
   } else {
     $('.navbar').removeClass('is-fixed-top')
+    $('.navbar').css({ 'max-width': '1440px' })
   }
 })
-
-$()
 
 //is-fixed-top
