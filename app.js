@@ -16,7 +16,7 @@ $('.navbar-burger').click(function () {
 $(document).scroll(function () {
   if ($(document).scrollTop() > 5) {
     $('.navbar').addClass('is-fixed-top')
-    $('.navbar').css({ 'max-width': '100%' })
+    $('.navbar').css({ width: '100%', 'border-radius': '0px 0px 20px 20px' })
   } else {
     $('.navbar').removeClass('is-fixed-top')
     $('.navbar').css({ 'max-width': '1440px' })

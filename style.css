@@ -15,7 +15,9 @@
   font-family: 'Epilogue', sans-serif;
   
 }
-
+body{
+  overflow: hidden;
+}
 
 ul{
   list-style: none;

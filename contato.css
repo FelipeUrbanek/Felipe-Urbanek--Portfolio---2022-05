@@ -112,5 +112,7 @@ align-self: flex-end;
 
 /* //celular */
 @media screen and (max-width: 768px){
-  
+  #contatodireita{
+    margin-left: 2px;
+  }
 }
