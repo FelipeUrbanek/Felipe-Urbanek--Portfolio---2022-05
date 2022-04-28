@@ -106,11 +106,11 @@ font-weight: 800;
     .columns{
       display: flex;
       flex-direction: column-reverse;
+      margin: 0 auto;
     }
 
     #home_esquerda, #home_direita{
       display: flex;
-      align-items: center;
     }
 
   
@@ -130,9 +130,36 @@ font-weight: 800;
     }
 
 
-    @media screen and (min-width: 769px){
-    .column.is-12-tablet {
-        flex: initial;
-        width: initial;
-    }
+/* //tablet */
+@media screen and (max-width: 1024px){
+  
+  
+}
+
+
+/* //celular */
+@media screen and (max-width: 768px){
+  .home{
+    padding: 10px 2px;
+  }
+  #home_esquerda , #home_direita{
+    margin: 15px !important;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  .home , #home_esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #home_esquerda h2 , #home_esquerda button{
+    align-self: center;
+  }
+
+  
 }

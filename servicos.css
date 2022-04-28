@@ -98,12 +98,12 @@
   
 }
 
-#desenvolvimento span{
+#desenvolvimento span ,#servicos span{
   font-size: 1.0rem;
   font-weight: 200;
   color: white;
   padding: 20px 0px 0px 0px;
-  max-width: 50ch;
+  max-width: 80ch;
 }
 
 
@@ -126,8 +126,12 @@
 
 /* //celular */
 @media screen and (max-width: 768px){
-#servicos, #desenvolvimento{
-    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  #servicos span, #desenvolvimento span{
+    max-width: 100ch;
   }
 }
     

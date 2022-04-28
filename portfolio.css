@@ -71,6 +71,9 @@
   .columns-portfolio p{
     bottom: 50px;
   }
+  .columns-portfolio{
+    align-items: center;
+  }
 }
 
 
@@ -84,4 +87,15 @@
     align-self: flex-start;
     bottom: 50px;
   }
+}
+
+
+.portfolio img{
+  filter: grayscale(70%);
+  transition: all 200ms ease-in;
+  
+}
+
+p , button{
+  transition: all 600ms ease-in;
 }

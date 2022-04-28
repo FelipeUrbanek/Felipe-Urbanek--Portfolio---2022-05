@@ -1,9 +1,10 @@
 
 .contato{
-  max-width: 1440px;
+  display: block;
   margin: 0 auto;
+  max-width: 1440px;
   align-items: center;
-  padding: 60px 10px;
+  padding: 60px 40px;
 }
 
 #contatoesquerda{
@@ -99,20 +100,64 @@ align-self: flex-end;
   color: #ffffff
 }
 .sociais a:hover{
-  color: #EF587A;
+  color: #2b0f1669;
   transform: scale(1.1);
+}
+
+.sociais i{
+  color: #EF587A;
+}
+
+.sociais i:hover{
+  color: white;
+  transform: scale(1.25);
+}
+
+textarea , input{
+  padding: 10px;
 }
 
 
 /* //tablet */
 @media screen and (max-width: 1024px){
- 
+#contatodireita{
+  margin-left: 2px;
 }
 
+.contato_container{
+  display: flex !important;
+  flex-direction: column;
+}
+}
 
 /* //celular */
 @media screen and (max-width: 768px){
+
   #contatodireita{
     margin-left: 2px;
   }
+
+  #contatoesquerda{
+    padding: 10px 10px;
+    
+  }
+  .sociais{
+    margin: initial
+    
+  }
+
+  .contato{
+    padding: 20px 10px;
+  }
+  textarea , input{
+    padding: 5px;
+  }
+  #contatoesquerda input::-webkit-input-placeholder , #contatoesquerda textarea::-webkit-input-placeholder{
+    color: #3535354b;
+    position: relative;
+    left: 10px;
+    margin-left: 20px;
+  }
 }
+
+

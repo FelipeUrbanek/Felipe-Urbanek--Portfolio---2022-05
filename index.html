@@ -11,10 +11,12 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
   </head>
   <body>
 
-    <div class="header-bg">
+    <div class="header-bg" id="homehd">
       <nav class="navbar header" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -30,20 +32,20 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item header-item">
+            <a href="#homehd" class="navbar-item header-item">
               Home
             </a>
       
-            <a class="navbar-item">
+            <a  href="#portfoliohd" class="navbar-item">
               Portfolio
             </a>
-            <a class="navbar-item">
+            <a href="#sobremimhd" class="navbar-item">
               Sobre-mim
             </a>
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="buttons">          
-                  <a class="button btn-contato">
+                  <a href="#contatohd" class="button btn-contato">
                     Contato
                   </a>
                 </div>
@@ -109,9 +111,9 @@
   </div>
   
 
-<div class="portfoliobg">
+<div class="portfoliobg" id="portfoliohd">
 
-    <section class="portfolio">
+    <section class="portfolio" >
       <div class="texto-portfolio">
         <h2 class="is-size-5-mobile is-size-2-tablet is-1-desktop">Portfolio</h2>
       <h3 class="is-size-4-mobile is-size-3-tablet is-2-desktop">Ultimos Trabalhos</h3>
@@ -122,7 +124,7 @@
           <figure>
             <img src="./img/project1.svg" alt="" class="imagem-portfolio">
           </figure>
-          <p class="is-size-4-mobile is-size-4-tablet is-size-2-widescreen is-size-2-desktop">Sofa</p>
+          <p class="is-size-4-mobile is-size-4-tablet is-size-2-widescreen is-size-2-desktop 1">Sofa</p>
             <button class="is-size-7-mobile is-size-7-tablet is-size-6-widescreen is-size-2-desktop">Design</button>
 
         </div>
@@ -149,7 +151,7 @@
   
 
 
-    <div class="sobremimbg">
+    <div class="sobremimbg" id="sobremimhd">
     <section class="sobre-mim">
       <div class="columns columns-sobremim">
         <div class="column is-12-mobile is-12-tablet is-6-desktop" id="sobremim-esquerda">
@@ -191,27 +193,27 @@
 
 
 
-  <div class="contatobg">
+  <div class="contatobg" id="contatohd">
     <section class="contato">
-      <div class="columns " >
-        <div class="column is-12-mobile is-12-tablet is-6-desktop is-6-widescreen" id="contatoesquerda">
+      <div class="columns contato_container" >
+        <div class="column is-12-mobile is-12-tablet is-6-desktop" id="contatoesquerda">
           <h6 class="is-size-5-mobile is-size-3-tablet is-size-3-widescreen is-size-3-desktop"></h6>Enviar e-mail</h6>
-          <input type="email" placeholder="E-mail" name="" id="">
-          <input type="text" placeholder="Assunto" name="" id="">
-          <textarea name=""  placeholder="Digite sua mensagem, e retornarei em breve" style="resize: none;" id="input-mensagem-footer" cols="30" rows="15" class="input-mensagem" required=""></textarea>
-          <button>Enviar</button>
+          <input type="email" placeholder="E-mail" name="" id="input-email">
+          <input type="text" placeholder="Nome" name="" id="input-text">
+          <textarea name=""  placeholder="Digite sua mensagem, e retornarei em breve" style="resize: none;" id="input-mensagem-footer" cols="30" rows="15" class="input-mensagem" required="" id="input-mensagem-footer"></textarea>
+          <button id="btn-email">Enviar</button>
 
         </div>
       
-        <div class="column is-12-mobile is-12-tablet is-6-desktop is-6-widescreen" id="contatodireita">
+        <div class="column is-12-mobile is-12-tablet is-6-desktop"  id="contatodireita">
           <h3 class="is-size-4-mobile is-size-3-tablet is-2-desktop is-size-2-widescreen">Contato</h3>
           <h2 class="is-size-4-mobile is-size-3-tablet is-2-desktop is-size-2-widescreen">Entre em contato</h2>
           <span class="is-size-7-mobile is-size-5-tablet is-size-7-widescreen is-size-6-desktop">Abaixo minhas rede sociais e não deixe de usar o formulario ao lado se tiver alguma duvida.</span>
           <div class="sociais">
-            <a href="https://www.facebook.com/FelippeUrbanek/"><i class="fab fa-facebook is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"> Facebook</i></a>
-          <a href="https://www.linkedin.com/in/felipe-urbanek-17a1b346/"><i class="fab fa-github is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"> Github</i></a>
-          <a href="https://github.com/FelipeUrbanek"><i class="fab fa-linkedin-in is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"> Linkedin</i></a>
-          <a href="https://www.instagram.com/felipeurbanek.dev/"><i class="fab fa-instagram is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"> Instagram</i></a>
+            <a href="https://www.facebook.com/FelippeUrbanek/"><i class="fab fa-facebook is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/felipe-urbanek-17a1b346/"><i class="fab fa-github is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"></i></a>
+          <a href="https://github.com/FelipeUrbanek"><i class="fab fa-linkedin-in is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/felipeurbanek.dev/"><i class="fab fa-instagram is-size-7-mobile is-size-6-tablet is-size-4-widescreen is-size-5-desktop" aria-hidden="true"></i></a>
           </div>
           
         </div>
