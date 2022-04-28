@@ -39,7 +39,7 @@
   #home_esquerda button{
 font-size: 1rem;
 font-weight: bold;
-padding: 10px 10px;
+
 color: white;
 text-align: center;
 width: 50%;
@@ -51,8 +51,14 @@ box-shadow: none;
 border-style: none;
 border-color: unset;
 font-weight: 800;
+  }
 
+  
 
+  .home a{
+    color: white;
+    padding: 10px 10px;
+    width: calc(100%);
 
   }
 
@@ -67,9 +73,8 @@ font-weight: 800;
   @media screen and (max-width: 1024px){
     .navbar-start{
       background-color: #4660BA;
-      
     }
-    
+
 
   @media screen and (min-width: 769px){
     #home_esquerda button{

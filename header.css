@@ -67,7 +67,7 @@ a:hover {
   display: flex!important;
   flex-direction: column;
   align-items: flex-end;
-  height: 100vh;
+  
 }
 
 .navbar-item{
@@ -78,7 +78,7 @@ a:hover {
 
 @media screen and (max-width: 768px){
  
-  
+
 
 
 }

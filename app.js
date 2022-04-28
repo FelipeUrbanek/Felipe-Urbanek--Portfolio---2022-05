@@ -3,8 +3,6 @@ $(function () {
 })
 
 $('.navbar-burger').click(function () {
-  var widthbody = $('.body').width()
-
   $(this).toggleClass('is-active')
   $('.navbar-menu').toggleClass('is-active')
   $('.navbar-start').css({
@@ -13,8 +11,15 @@ $('.navbar-burger').click(function () {
     position: 'initial',
     width: '100%'
   })
-  $('.navbar-start a').css('font-size', '2rem')
-  console.log('teste')
+  $('.navbar-start').height(
+    $(window).height() - $('.navbar-brand').height() - 20
+  )
+  $('.navbar-start a').css('font-size', '1.5rem')
+})
+
+$('.navbar-start a').click(function () {
+  $('.navbar-burger').removeClass('is-active')
+  $('.navbar-menu').removeClass('is-active')
 })
 
 $(document).scroll(function () {
@@ -78,4 +83,12 @@ $('.columns-portfolio .column').mouseleave(function () {
     .css({ filter: 'grayscale(100%)', transform: 'scale(1.00)' })
 })
 
+$('.home a').mouseenter(function () {
+  $(this).css('color', '#282828')
+  $('#home_esquerda button').css('transform', 'scale(1.1)')
+})
+$('.home a').mouseleave(function () {
+  $('#home_esquerda button').css('transform', 'scale(1.0)')
+  $(this).css('color', '#fff')
+})
 //is-fixed-top
