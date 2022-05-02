@@ -91,11 +91,10 @@
 
 
 .portfolio img{
-  filter: grayscale(70%);
+  filter: grayscale(100%) blur(2px) hue-rotate(174deg);
   transition: all 200ms ease-in;
   
 }
-
 p , button{
   transition: all 600ms ease-in;
 }

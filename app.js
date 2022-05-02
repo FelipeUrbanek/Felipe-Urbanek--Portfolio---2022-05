@@ -64,15 +64,15 @@ $('#btn-email').click(function () {
 })
 
 $('.columns-portfolio img').mouseenter(function () {
-  $(this)
   $(this).css('-webkit-filter', 'grayscale(0%)')
   $(this).css('transform', 'scale(1.05)')
 })
-
 $('.columns-portfolio .column').mouseenter(function () {
   $(this).find('p').css('transform', 'scale(1.05)')
   $(this).find('button').css('transform', 'scale(1.05)')
-  $(this).find('img').css({ filter: 'grayscale(0%)', transform: 'scale(1.05)' })
+  $(this)
+    .find('img')
+    .css({ filter: 'grayscale(0%) blur(0px)', transform: 'scale(1.05)' })
 })
 
 $('.columns-portfolio .column').mouseleave(function () {
@@ -80,7 +80,7 @@ $('.columns-portfolio .column').mouseleave(function () {
   $(this).find('button').css('transform', 'scale(1.00)')
   $(this)
     .find('img')
-    .css({ filter: 'grayscale(100%)', transform: 'scale(1.00)' })
+    .css({ filter: 'grayscale(100%) blur(2px)', transform: 'scale(1.00)' })
 })
 
 $('.home a').mouseenter(function () {

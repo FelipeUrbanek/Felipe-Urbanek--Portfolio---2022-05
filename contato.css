@@ -13,14 +13,14 @@
   align-items: left;
   justify-content: center;
   padding: 20px 50px;
-  background-color: rgb(244, 246, 247);
+  background-color: #212223;
   gap: 20px;
 }
 
 #contatoesquerda h6{
   font-size: 1.75rem;
   font-weight: 700;
-  color: #391400;
+  color: #b3b1b1;
 }
 
 #contatoesquerda input , #contatoesquerda textarea{
@@ -28,6 +28,7 @@
   font-weight: 700;
   border-radius: 5px;
   border: 1px solid #2b0f1669;
+  background-color: #3B3B3B;
   
 }
 
@@ -45,7 +46,7 @@ width: 45%;
 align-self: flex-end;
 }
 #contatoesquerda input::-webkit-input-placeholder , #contatoesquerda textarea::-webkit-input-placeholder{
-  color: #3535354b;
+  color: #6B6B6B;
   position: relative;
   left: 20px;
   margin-left: 20px;
@@ -153,7 +154,7 @@ textarea , input{
     padding: 5px;
   }
   #contatoesquerda input::-webkit-input-placeholder , #contatoesquerda textarea::-webkit-input-placeholder{
-    color: #3535354b;
+    color: #6B6B6B;
     position: relative;
     left: 10px;
     margin-left: 20px;
