@@ -117,6 +117,10 @@ font-weight: 800;
     #home_esquerda, #home_direita{
       display: flex;
     }
+    .column.is-12-mobile {
+      flex: none;
+      width: initial;
+  }
 
   
   }
