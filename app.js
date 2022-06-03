@@ -2,6 +2,10 @@ $(function () {
   emailjs.init('01vCxUMKXY1hiZEq7')
 })
 
+$(document).ready(function () {
+  AOS.init()
+})
+
 $('.navbar-burger').click(function () {
   $(this).toggleClass('is-active')
   $('.navbar-menu').toggleClass('is-active')
