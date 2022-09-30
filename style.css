@@ -1,45 +1,50 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import "./header.css";
-@import "./home.css";
-@import "./servicos.css";
-@import "./portfolio.css";
-@import "./sobremim.css";
-@import "./faixa.css";
-@import "./contato.css";
+@import './header.css';
+@import './home.css';
+@import './servicos.css';
+@import './portfolio.css';
+@import './sobremim.css';
+@import './faixa.css';
+@import './contato.css';
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Epilogue', sans-serif;
-  
 }
-body{
+body {
   overflow: hidden;
 }
 
-ul{
+ul {
   list-style: none;
   color: white;
 }
 
-
-.home-bg{
-  background-color: #4660BA;
+.home-bg {
+  background-color: #4660ba;
 }
 
-.servicosbg{
+.servicosbg {
   background-color: #282828;
 }
 
-.portfoliobg{
-  background-color: #4660BA;
+.portfoliobg {
+  background-color: #4660ba;
 }
-.sobremimbg , .contatobg{
+.sobremimbg,
+.contatobg {
   background-color: #282828;
 }
 
-.faixabg{
-  background-color: #4660BA;
+.faixabg {
+  background-color: #4660ba;
+}
+
+.p-item {
+  text-shadow: 0px 51px 80px rgba(0, 0, 0, 0.08),
+    0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271),
+    0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04),
+    0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
 }
